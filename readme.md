@@ -46,7 +46,37 @@ The `videos` folder contains three sub-folders in which each one represents a ca
 
 ## Tools
 
+### Scripts
 
+> ``_Server_Opt_Rossi_Script.py`` This script is able to evaluate the proposed server optimisation for VR tile-based ODV.
+
+> ``_Server_Opt_Script_Netflix_Apple.py`` This script is able to evaluate the Netflix and Apple optimisation for VR tile-based ODV.
+
+### CSV files
+
+> ``prob_dev_0.csv`` It contains heatmap probability per tile for the HMD device. It was estimated using viewport heatmaps. The .csv contains the following structure: | folder location | file name | probability for tile 0 | probability for tile 1 | probability for tile 2 | probability for tile 3 | probability for tile 4 |
+
+> ``prob_dev_1.csv`` Same as ``prob_dev_o.csv``, but, this file is for Laptop.
+
+> ``prob_dev_2.csv`` Same as ``prob_dev_o.csv``, but, this file is for HMD.
+
+> ``RD_1920x1080.csv``: It contains RD results for each tile for 1920x1080 resolution. The measurement is based on WS-PSNR and WS-MSE. q_i is quality for the i-th tile, d_i is distortion for the i-the tile, b_i is file size for the i-th tile.
+
+> ``RD_1920x1080_Apple.csv`` It contains RD results for Apple optimization scenario for 1920x1080 resolution.
+
+> ``RD_1920x1080_Netflix.csv`` It contains RD results for Netflix optimization scenario for 1920x1080 resolution.
+
+> ``RD_2560x1440.csv`` Similar as above, but it is for 2560x1440 display resolution.
+
+> ``RD_2560x1440_Apple.csv`` Similar as above, but it is for 2560x1440 display resolution.
+
+> ``RD_2560x1440_Netflix.csv`` Similar as above, but it is for 2560x1440 display resolution.
+
+> ``RD_3840x2160.csv``Similar as above, but it is for 3840x2160 display resolution.
+
+> ``RD_3840x2160_Apple.csv`` Similar as above, but it is for 3840x2160 display resolution.
+
+> ``RD_3840x2160_Netflix.csv`` Similar as above, but it is for 3840x2160 display resolution.
 
 
 ## Citation 
@@ -64,7 +94,7 @@ booktitle = {Transactions on Multimedia Computing Communications and Application
 
 ## Authors
 
-| [Silvia Rossi](https://www.ucl.ac.uk/iccs/silvia-rossi) | [Cagri Ozcinar](https://cagriozcinar.netlify.com/) |[Aljosa Smolic](https://v-sense.scss.tcd.ie/?profile=prof-aljosa-smolic) | [Laura Toni](https://www.ucl.ac.uk/iccs/dr-laura-toni) |
+| [Silvia Rossi](https://www.ucl.ac.uk/iccs/silvia-rossi) | [Cagri Ozcinar](https://cagriozcinar.netlify.com/) | [Aljosa Smolic](https://v-sense.scss.tcd.ie/?profile=prof-aljosa-smolic) | [Laura Toni](https://www.ucl.ac.uk/iccs/dr-laura-toni) |
 
 ## Acknowledgement
 
